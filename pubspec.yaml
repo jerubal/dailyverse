@@ -1,0 +1,41 @@
+name: bible_verse_app
+description: "A beautiful Flutter application for displaying daily Bible verses."
+
+# Prevents accidental publishing to pub.dev
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For fetching the daily verse from the API
+  http: ^1.2.0
+
+  # For beautiful, spiritual-feeling typography (Lora, Montserrat)
+  google_fonts: ^6.2.1
+
+  # To allow users to share verses with friends/family
+  share_plus: ^10.1.0
+
+  # Standard iOS icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Helps maintain high-quality code standards
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Enables Material 3 design and system icons
+  uses-material-design: true
+
+  # Add assets here if you decide to use a custom background image or logo
+  # assets:
+  #   - assets/images/logo.png
